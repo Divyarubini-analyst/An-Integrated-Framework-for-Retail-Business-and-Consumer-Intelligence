@@ -9,10 +9,10 @@ Retail businesses need to monitor sales performance, understand customer purchas
 
 Tools Used
 Stage	Tool	What I did
-****Data cleaning**	**Excel	Standardised headers, removed duplicates, handled missing values, added data validation, derived total price, XLOOKUP/VLOOKUP, PivotTable
+****Data cleaning**	Excel	Standardised headers, removed duplicates, handled missing values, added data validation, derived total price, XLOOKUP/VLOOKUP, PivotTable
 **Database	MySQL**	Created relational tables with primary/foreign keys, wrote JOIN, aggregation, ranking and CASE queries
 **Analysis	Python** (Pandas, NumPy, SQLAlchemy)	EDA, RFM feature calculation, customer segmentation, exported results back to MySQL
-**Reporting	Power BI **(DAX, Power Query)	Data model, KPI cards, slicers, charts, maps, page navigation
+****Reporting	Power BI** **(DAX, Power Query)	Data model, KPI cards, slicers, charts, maps, page navigation
 Pipeline
 **Excel Cleaning → MySQL Database → Python EDA & RFM → MySQL (customer segments) → Power BI
 Dataset**
