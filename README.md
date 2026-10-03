@@ -12,14 +12,14 @@ Stage	Tool	What I did
 ****Data cleaning**	Excel	Standardised headers, removed duplicates, handled missing values, added data validation, derived total price, XLOOKUP/VLOOKUP, PivotTable
 **Database	MySQL**	Created relational tables with primary/foreign keys, wrote JOIN, aggregation, ranking and CASE queries
 **Analysis	Python** (Pandas, NumPy, SQLAlchemy)	EDA, RFM feature calculation, customer segmentation, exported results back to MySQL
-****Reporting	Power BI** **(DAX, Power Query)	Data model, KPI cards, slicers, charts, maps, page navigation
-Pipeline
-**Excel Cleaning → MySQL Database → Python EDA & RFM → MySQL (customer segments) → Power BI
-Dataset**
+**Reporting	Power BI** (DAX, Power Query)	Data model, KPI cards, slicers, charts, maps, page navigation
+
+Pipeline **Excel Cleaning → MySQL Database → Python EDA & RFM → MySQL (customer segments) → Power BI
+ Dataset**
 
 Relational retail data with these tables: Customers, Orders, Order Items, Products, Brands, Categories, Stocks, Stores, Staffs.
 
-Key Steps
+**Key Steps**
 Excel: cleaned and validated every sheet, created a derived column (list_price * quantity) - discount, and exported table-specific CSV files.
 SQL: imported the CSVs, defined keys and relationships, used INNER JOINs, ranked products by quantity sold, and built spending categories with CASE.
 Python: loaded data from SQL, ran EDA, calculated Recency, Frequency and Monetary values per customer, and assigned segments.
